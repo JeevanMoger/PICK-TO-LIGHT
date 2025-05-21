@@ -1,0 +1,266 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"27 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\can.c
+[e E10466 _CanOpMode `uc
+e_can_op_mode_bits 224
+e_can_op_mode_normal 0
+e_can_op_mode_sleep 32
+e_can_op_mode_loop 64
+e_can_op_mode_listen 96
+e_can_op_mode_config 128
+]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"19 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+"63
+[v _can_receive can_receive `(uc  1 e 1 0 ]
+"95
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+"3 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+"6 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\main.c
+[v _delay delay `(v  1 e 1 0 ]
+"14
+[v _init_config init_config `(v  1 e 1 0 ]
+"22
+[v _receive_can receive_can `(v  1 e 1 0 ]
+"42
+[v _main main `(v  1 e 1 0 ]
+"4 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\uart.c
+[v _init_uart init_uart `(v  1 e 1 0 ]
+"29
+[v _putch putch `(v  1 e 1 0 ]
+"40
+[v _puts puts `(i  1 e 2 0 ]
+"50
+[v _getch getch `(uc  1 e 1 0 ]
+"12 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X/main.h
+[v _k k `ui  1 e 2 0 ]
+[v _count count `ui  1 e 2 0 ]
+"14
+[v _arr_id arr_id `[5]uc  1 e 5 0 ]
+[v _arr_st arr_st `[5]uc  1 e 5 0 ]
+[v _ch ch `uc  1 e 1 0 ]
+"16
+[v _data data `[9]uc  1 e 9 0 ]
+"17
+[v _ust_pid_flag ust_pid_flag `ui  1 e 2 0 ]
+[v _alph_flag alph_flag `ui  1 e 2 0 ]
+"4422 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4580.h
+[v _RXFCON0 RXFCON0 `VEuc  1 e 1 @3540 ]
+"14803
+[v _RXF0SIDH RXF0SIDH `VEuc  1 e 1 @3840 ]
+"14915
+[v _RXF0SIDL RXF0SIDL `VEuc  1 e 1 @3841 ]
+"15016
+[v _RXF0EIDH RXF0EIDH `VEuc  1 e 1 @3842 ]
+"15128
+[v _RXF0EIDL RXF0EIDL `VEuc  1 e 1 @3843 ]
+"20963
+[v _TXB0SIDH TXB0SIDH `VEuc  1 e 1 @3905 ]
+"21075
+[v _TXB0SIDL TXB0SIDL `VEuc  1 e 1 @3906 ]
+"21167
+[v _TXB0EIDH TXB0EIDH `VEuc  1 e 1 @3907 ]
+"21279
+[v _TXB0EIDL TXB0EIDL `VEuc  1 e 1 @3908 ]
+"21391
+[v _TXB0DLC TXB0DLC `VEuc  1 e 1 @3909 ]
+"21469
+[v _TXB0D0 TXB0D0 `VEuc  1 e 1 @3910 ]
+"21531
+[v _TXB0D1 TXB0D1 `VEuc  1 e 1 @3911 ]
+"21593
+[v _TXB0D2 TXB0D2 `VEuc  1 e 1 @3912 ]
+"21655
+[v _TXB0D3 TXB0D3 `VEuc  1 e 1 @3913 ]
+"21717
+[v _TXB0D4 TXB0D4 `VEuc  1 e 1 @3914 ]
+"21779
+[v _TXB0D5 TXB0D5 `VEuc  1 e 1 @3915 ]
+"21841
+[v _TXB0D6 TXB0D6 `VEuc  1 e 1 @3916 ]
+"21903
+[v _TXB0D7 TXB0D7 `VEuc  1 e 1 @3917 ]
+"23528
+[v _RXB0CON RXB0CON `VEuc  1 e 1 @3936 ]
+"23721
+[v _RXB0SIDH RXB0SIDH `VEuc  1 e 1 @3937 ]
+"23833
+[v _RXB0SIDL RXB0SIDL `VEuc  1 e 1 @3938 ]
+"23935
+[v _RXB0EIDH RXB0EIDH `VEuc  1 e 1 @3939 ]
+"24047
+[v _RXB0EIDL RXB0EIDL `VEuc  1 e 1 @3940 ]
+"24159
+[v _RXB0DLC RXB0DLC `VEuc  1 e 1 @3941 ]
+"24274
+[v _RXB0D0 RXB0D0 `VEuc  1 e 1 @3942 ]
+"24336
+[v _RXB0D1 RXB0D1 `VEuc  1 e 1 @3943 ]
+"24398
+[v _RXB0D2 RXB0D2 `VEuc  1 e 1 @3944 ]
+"24460
+[v _RXB0D3 RXB0D3 `VEuc  1 e 1 @3945 ]
+"24522
+[v _RXB0D4 RXB0D4 `VEuc  1 e 1 @3946 ]
+"24584
+[v _RXB0D5 RXB0D5 `VEuc  1 e 1 @3947 ]
+"24646
+[v _RXB0D6 RXB0D6 `VEuc  1 e 1 @3948 ]
+"24708
+[v _RXB0D7 RXB0D7 `VEuc  1 e 1 @3949 ]
+"24770
+[v _CANSTAT CANSTAT `VEuc  1 e 1 @3950 ]
+"24879
+[v _CANCON CANCON `VEuc  1 e 1 @3951 ]
+"24983
+[v _BRGCON1 BRGCON1 `VEuc  1 e 1 @3952 ]
+"25045
+[v _BRGCON2 BRGCON2 `VEuc  1 e 1 @3953 ]
+"25116
+[v _BRGCON3 BRGCON3 `VEuc  1 e 1 @3954 ]
+"25434
+[v _ECANCON ECANCON `VEuc  1 e 1 @3959 ]
+"29245
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"29257
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"29269
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"34755
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"34914
+[v _CREN CREN `VEb  1 e 0 @32092 ]
+"35487
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"35988
+[v _OERR OERR `VEb  1 e 0 @32089 ]
+"36081
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"36276
+[v _RCIE RCIE `VEb  1 e 0 @31981 ]
+"36279
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"36660
+[v _RXB0FUL RXB0FUL `VEb  1 e 0 @31495 ]
+"36666
+[v _RXB0IF RXB0IF `VEb  1 e 0 @32032 ]
+"38880
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"39180
+[v _TRISB2 TRISB2 `VEb  1 e 0 @31898 ]
+"39183
+[v _TRISB3 TRISB3 `VEb  1 e 0 @31899 ]
+"39216
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"39219
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"39600
+[v _TXB0REQ TXB0REQ `VEb  1 e 0 @31235 ]
+"40335
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"6 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\can.c
+[v _can_payload can_payload `[13]uc  1 e 13 0 ]
+"42 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"103
+[v main@i_109 i `i  1 a 2 18 ]
+"98
+[v main@i_106 i `i  1 a 2 14 ]
+"86
+[v main@i_104 i `i  1 a 2 16 ]
+"84
+[v main@i i `i  1 a 2 10 ]
+"97
+[v main@ref1 ref1 `ui  1 a 2 12 ]
+"83
+[v main@ref ref `ui  1 a 2 8 ]
+"134
+} 0
+"22
+[v _receive_can receive_can `(v  1 e 1 0 ]
+{
+"40
+} 0
+"40 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\uart.c
+[v _puts puts `(i  1 e 2 0 ]
+{
+[v puts@s s `*.35Cuc  1 p 2 1 ]
+"48
+} 0
+"29
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 wreg ]
+[v putch@byte byte `uc  1 a 1 0 ]
+"38
+} 0
+"63 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\can.c
+[v _can_receive can_receive `(uc  1 e 1 0 ]
+{
+"92
+} 0
+"14 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\main.c
+[v _init_config init_config `(v  1 e 1 0 ]
+{
+"20
+} 0
+"4 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\uart.c
+[v _init_uart init_uart `(v  1 e 1 0 ]
+{
+"27
+} 0
+"19 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\can.c
+[v _init_can init_can `(v  1 e 1 0 ]
+{
+"60
+} 0
+"95
+[v _can_transmit can_transmit `(v  1 e 1 0 ]
+{
+"115
+} 0
+"6 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\main.c
+[v _delay delay `(v  1 e 1 0 ]
+{
+"7
+[v delay@i i `us  1 a 2 4 ]
+[v delay@j j `us  1 a 2 2 ]
+"6
+[v delay@factor factor `us  1 p 2 0 ]
+"12
+} 0
+"3 C:\EMERTXE\MICROCONTROLLER\PIC_TO_LIGHT_SERVER.X\isr.c
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"13
+} 0
