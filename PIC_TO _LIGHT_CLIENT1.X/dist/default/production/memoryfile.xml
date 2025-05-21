@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\PIC_TO__LIGHT_CLIENT1.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>16385</length>
+      <used>4497</used>
+      <free>11888</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1536</length>
+      <used>115</used>
+      <free>1421</free>
+    </memory>
+  </executable>
+</project>
